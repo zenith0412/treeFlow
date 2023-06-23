@@ -1,0 +1,128 @@
+{
+  "name": "Seth wiliams ",
+  "name2": "Managing director",
+  "img" : "1.png",
+  "children": [
+    {
+      "name": "Ramon Harris",
+      "name2": "Regional Director",
+      "img" : "2.png",
+
+      "attributes": {
+        "department": "Production"
+      },
+      "children": [
+        {
+          "name": "Janet Parks",
+          "name2": "CEO",
+          "img" : "3.png",
+
+          "attributes": {
+            "department": "Fabrication"
+          },
+          "retail":true,
+          "dropdown" : true
+        },
+        {
+          "name": "Isabelle Kaif",
+          "name2": "CEO",
+          "img" : "4.png",
+          
+          "attributes": {
+            "department": "Assembly"
+          },
+          "retail":true
+        }
+      ]
+    },
+    {
+      "name": "Dan Morgan",
+      "name2": "Regional Director",
+       "img" : "5.png",
+
+      "attributes": {
+        "department": "A"
+      },
+      "children": [
+        {
+          "name": "Ivan Toney",
+          "name2": "CEO",
+           "img" : "6.png",
+
+          "attributes": {
+            "department": "A"
+          },
+          "children": [
+            {
+              "name": "Brian Walker",
+              "img" : "12.png",
+              "retail":true,
+              "dropdown" : true
+            },
+            {
+              "name": "Vera Martinez",
+              "img" : "10.png",
+
+              "retail":true,
+              "dropdown" : true
+            }
+          ],
+          "retail":true,
+          "dropdown" : true
+        },
+        {
+          "name": "Sabrina Francis ",
+          "name2": "CEO",
+          "img" : "7.png",
+
+          "attributes": {
+            "department": "B"
+          },
+          "retail":true
+        }
+      ]
+    },
+    {
+      "name": "Dave Cooper",
+      "name2": "Regional Director",
+      "img" : "8.png",
+
+      "attributes": {
+        "department": "Marketing"
+      }
+    },
+    {
+      "name": "Stella Nelson",
+      "name2": "Regional Director",
+      "img" : "9.png",
+
+      "attributes": {
+        "department": "Marketing"
+      },
+      "children": [
+        {
+          "name": "Miles Clark",
+          "name2": "Chief Administrator",
+          "img" : "10.png",
+
+          "attributes": {
+            "department": "A"
+          },
+          "retail":true,
+          "dropdown" : true
+        },
+        {
+          "name": "Angela Howard",
+          "name2": "Chief Administrator",
+          "img" : "11.png",
+
+          "attributes": {
+            "department": "B"
+          },
+          "retail":true,
+          "dropdown" : true
+        }
+      ]
+    }
+  ]
+}
